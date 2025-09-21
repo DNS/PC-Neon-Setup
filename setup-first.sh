@@ -16,7 +16,7 @@ apt update
 
 apt install -y ubuntu-advantage-tools
 
-apt install -y libreoffice neofetch python3-pip nginx qbittorrent qbittorrent-nox krita gimp nodejs wget kaffeine vlc scite scilab xdg-desktop-portal-kde systemd-sysv htop retroarch zfsutils-linux sshfs tmux neofetch zenmap make otpclient oathtool gcc g++ binutils gcc-mingw-w64 g++-mingw-w64 openjdk-17-jdk openjdk-17-jre radeontop software-properties-common ttf-mscorefonts-installer micro nano maliit-keyboard glmark2 piper git kcalc
+apt install -y libreoffice neofetch python3-pip nginx qbittorrent qbittorrent-nox krita gimp nodejs wget kaffeine vlc scite scilab xdg-desktop-portal-kde systemd-sysv htop retroarch zfsutils-linux gdisk sshfs tmux neofetch zenmap make otpclient oathtool gcc g++ binutils gcc-mingw-w64 g++-mingw-w64 openjdk-17-jdk openjdk-17-jre radeontop software-properties-common ttf-mscorefonts-installer micro nano maliit-keyboard glmark2 piper git kcalc whois
 
 
 ###################################
