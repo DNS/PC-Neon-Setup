@@ -41,6 +41,15 @@ chsh -s /usr/bin/pwsh dns
 
 # others
 
+# git
 git config --global init.defaultBranch master
+
+# balena etcher
+$a = irm https://api.github.com/repos/balena-io/etcher/releases/latest
+$dl = $a.assets.browser_download_url | %{ if ($_ -match '\.deb\Z') { $_ } }
+$file = Split-Path $dl -Leaf
+iwr $dl -Out $file
+apt install -y $file
+
 
 
