@@ -9,7 +9,8 @@ git clone git@github.com:DNS/Debian-Help.git
 
 
 # mouse scroll
-$a = gc -Raw ~/.config/kdeglobals
-$a -Replace '\[KDE\]', "[KDE]`nWheelScrollLines=8" > ~/.config/kdeglobals
-
+pwsh -Command {
+	$a = gc -Raw ~/.config/kdeglobals
+	$a -Replace '\[KDE\]', "[KDE]`nWheelScrollLines=8" > ~/.config/kdeglobals
+}
 
