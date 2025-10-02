@@ -42,6 +42,21 @@ chsh -s /usr/bin/pwsh dns
 # others
 
 # git
+git config --global push.autoSetupRemote true
 git config --global init.defaultBranch master
+
+
+# wake from USB devices
+grep . /sys/bus/usb/devices/*/power/wakeup
+echo enabled > /sys/bus/usb/devices/usb1/power/wakeup
+echo enabled > /sys/bus/usb/devices/usb2/power/wakeup
+echo enabled > /sys/bus/usb/devices/usb3/power/wakeup
+echo enabled > /sys/bus/usb/devices/usb4/power/wakeup
+echo enabled > /sys/bus/usb/devices/usb5/power/wakeup
+echo enabled > /sys/bus/usb/devices/usb6/power/wakeup
+echo enabled > /sys/bus/usb/devices/usb7/power/wakeup
+echo enabled > /sys/bus/usb/devices/usb8/power/wakeup
+
+
 
 
