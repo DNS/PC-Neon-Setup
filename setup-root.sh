@@ -1,4 +1,4 @@
-#!/bin/sh
+﻿#!/bin/sh
 
 # run as root
 
@@ -23,7 +23,6 @@ apt install -y firefox thunderbird libreoffice neofetch python3-pip nginx qbitto
 # install powershell
 
 apt-get update
-apt-get install -y wget
 source /etc/os-release
 wget -q https://packages.microsoft.com/config/ubuntu/$VERSION_ID/packages-microsoft-prod.deb
 dpkg -i packages-microsoft-prod.deb
