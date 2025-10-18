@@ -13,12 +13,15 @@ touch /root/.hushlogin
 apt clean
 apt update
 
-py
-apt install -y ubuntu-advantage-tools
+apt install -y ubuntu-advantage-tools xdg-desktop-portal-kde software-properties-common ttf-mscorefonts-installer maliit-keyboard
 
-apt install -y firefox thunderbird libreoffice neofetch nginx qbittorrent qbittorrent-nox krita gimp nodejs wget kaffeine vlc scite scilab xdg-desktop-portal-kde systemd-sysv htop retroarch zfsutils-linux gdisk sshfs tmux neofetch zenmap make otpclient oathtool radeontop software-properties-common ttf-mscorefonts-installer micro nano maliit-keyboard glmark2 piper git kcalc whois artha iw
+apt install -y systemd-sysv htop tmux neofetch zenmap whois zfsutils-linux gdisk sshfs
 
-apt install -y clang gcc g++ binutils gcc-mingw-w64 g++-mingw-w64 openjdk-17-jdk openjdk-17-jre wxhexeditor
+apt install -y micro nano wxhexeditor scite scilab
+
+apt install -y firefox thunderbird libreoffice neofetch nginx qbittorrent qbittorrent-nox krita gimp wget kaffeine vlc retroarch otpclient oathtool radeontop glmark2 piper kcalc artha iw
+
+apt install -y clang gcc g++ binutils gcc-mingw-w64 g++-mingw-w64 make openjdk-17-jdk openjdk-17-jre git nodejs
 
 apt install -y python3-pip python3-pylsp yt-dlp instaloader
 
