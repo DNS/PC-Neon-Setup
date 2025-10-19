@@ -38,10 +38,21 @@ apt-get update
 apt-get install -y powershell
 pwsh
 
+
+###################################
 # Change default shell
+@'
+#!/usr/bin/pwsh
+
+/usr/bin/pwsh -Login -NoLogo
+
+'@ | Out-File /usr/bin/pwsh.nologo
+
+chmod +x /usr/bin/pwsh.nologo
+
 cat /etc/shells
-chsh -s /usr/bin/pwsh root
-chsh -s /usr/bin/pwsh dns
+chsh -s /usr/bin/pwsh.nologo root
+chsh -s /usr/bin/pwsh.nologo dns
 
 ######################################
 
