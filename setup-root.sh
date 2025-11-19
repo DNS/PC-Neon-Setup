@@ -34,6 +34,8 @@ pwsh
 
 
 ###################################
+# WARNING: using .nologo script is not compatible with sftp & sshfs
+
 # Change default shell
 echo '#!/usr/bin/pwsh
 
@@ -45,6 +47,7 @@ chmod +x /usr/bin/pwsh.nologo
 cat /etc/shells
 chsh -s /usr/bin/pwsh.nologo root
 chsh -s /usr/bin/pwsh.nologo dns
+
 
 ######################################
 
