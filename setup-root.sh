@@ -14,9 +14,11 @@ apt update
 
 apt install -y ubuntu-advantage-tools xdg-desktop-portal-kde software-properties-common ttf-mscorefonts-installer maliit-keyboard
 apt install -y systemd-sysv htop tmux neofetch zenmap whois zfsutils-linux gdisk sshfs exfatprogs
+apt install -y wget neofetch otpclient oathtool radeontop glmark2 piper kcalc artha iw
 apt install -y micro nano wxhexeditor scite scilab
-apt install -y firefox thunderbird libreoffice neofetch nginx qbittorrent qbittorrent-nox krita gimp wget kaffeine vlc retroarch otpclient oathtool radeontop glmark2 piper kcalc artha iw
-apt install -y clang gcc g++ binutils gcc-mingw-w64 g++-mingw-w64 make openjdk-17-jdk openjdk-17-jre git nodejs openssh-client openssh-server lua5.4 luajit luarocks
+apt install -y firefox thunderbird libreoffice libreoffice-kf5
+apt install -y qbittorrent qbittorrent-nox krita gimp kaffeine vlc retroarch
+apt install -y clang gcc g++ binutils gcc-mingw-w64 g++-mingw-w64 make openjdk-17-jdk openjdk-17-jre git nodejs openssh-client openssh-server lua5.4 luajit luarocks nginx
 apt install -y python3-pip python3-pylsp yt-dlp instaloader adb 
 
 
