@@ -1,4 +1,6 @@
-﻿<#
+﻿# RUN AS ROOT
+
+<#
 
 https://unix.stackexchange.com/questions/51804/how-can-i-install-a-new-keyboard-layout-in-kde-4
 
@@ -65,6 +67,12 @@ Get-Content -Raw ./HIEAMTSRN.xkb | Add-Content /usr/share/X11/xkb/symbols/us
 
 
 ####################
+####################
+####################
 
-
+# SET KDE /usr/bin/systemsettings
+Copy-Item -Force ./kxkbrc -Destination ~/.config/kxkbrc
+login dns
+Copy-Item -Force ./kxkbrc -Destination ~/.config/kxkbrc
+exit
 
