@@ -1,0 +1,36 @@
+https://binary-factory.kde.org/view/Windows%2064-bit/
+====================================
+
+Calligra (poor quality) - office suite
+Plan / CalligraPlan - project management application
+Kexi - visual database applications builder
+Okular - PDF reader
+
+Kate - text editor
+KDevelop - integrated development environment
+Okteta - hex viewer & editor
+KDiff3 - diff
+
+KMyMoney (not working in indonesia) - personal finance manager
+Alkimia - common storage and business logic that will be used by all financial applications in KDE
+
+KAlgebra (not working) - fully featured calculator, 2D & 3D plotter
+KmPlot - mathematical function plotter
+Kig - program for exploring geometric constructions
+Kstars - astronomy software
+Kolourpaint - bitmap painting software
+
+Alligator - RSS reader
+SubtitleComposer - subtitle editor
+
+Kronometer - stopwatch
+Peruse - comic books reader
+
+Filelight - visual diskspace usage
+
+Knights - Chess game (not working)
+
+-------------------------------------
+
+Krita - painter software
+
