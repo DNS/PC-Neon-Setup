@@ -20,7 +20,7 @@ apt install -y firefox thunderbird libreoffice libreoffice-kf5
 apt install -y qbittorrent qbittorrent-nox krita gimp haruna kaffeine vlc retroarch
 apt install -y clang gcc g++ binutils gcc-mingw-w64 g++-mingw-w64 make openjdk-17-jdk openjdk-17-jre git nodejs openssh-client openssh-server lua5.4 luajit luarocks nginx
 apt install -y python3-pip python3-pylsp yt-dlp instaloader adb 
-apt install -y kdiff3 poppler-utils zenmap
+apt install -y kdiff3 poppler-utils zenmap ghostwriter
 
 
 ###################################
@@ -37,6 +37,14 @@ pwsh
 
 
 ###################################
+
+# PowerShell
+
+# disable update
+echo 'POWERSHELL_UPDATECHECK="Off"' >> /etc/environment
+echo 'POWERSHELL_TELEMETRY_OPTOUT=1' >> /etc/environment
+
+
 # WARNING: using .nologo script is not compatible with sftp & sshfs
 
 # Change default shell
@@ -52,7 +60,16 @@ chsh -s /usr/bin/pwsh.nologo root
 chsh -s /usr/bin/pwsh.nologo dns
 
 
+# disable
+
 ######################################
+
+# Python
+
+# disable generating pycache
+echo 'PYTHONDONTWRITEBYTECODE=1' >> /etc/environment
+
+
 
 # others
 

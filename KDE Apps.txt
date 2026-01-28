@@ -9,7 +9,8 @@ Okular - PDF reader
 Kate - text editor
 KDevelop - integrated development environment
 Okteta - hex viewer & editor
-KDiff3 - diff
+KDiff3 - diff viewer
+ghostwriter - markdown editor & viewer
 
 KMyMoney (not working in indonesia) - personal finance manager
 Alkimia - common storage and business logic that will be used by all financial applications in KDE
@@ -35,4 +36,6 @@ Knights - Chess game (not working)
 -------------------------------------
 
 Krita - painter software
+
+Sweet Home 3D - house interior design / modeling
 
