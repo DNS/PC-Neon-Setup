@@ -78,6 +78,11 @@ git config --global push.autoSetupRemote true
 git config --global init.defaultBranch master
 
 
-# wake from USB devices
-echo enabled > grep . /sys/bus/usb/devices/*/power/wakeup
-# gci /sys/bus/usb/devices/*/power/wakeup | %{ 'enabled' > $_ }
+# USB wake from sleep, enabled
+@'
+# USB wake from sleep, enabled
+pwsh -command { gci /sys/bus/usb/devices/usb*/power/wakeup | % { 'enabled' > $_ }  }
+'@ >> /etc/rc.local
+
+
+
