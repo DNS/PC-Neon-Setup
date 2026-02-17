@@ -13,7 +13,7 @@ apt clean
 apt update
 # apt list
 
-apt install -y ubuntu-advantage-tools xdg-desktop-portal-kde software-properties-common ttf-mscorefonts-installer maliit-keyboard
+apt install -y kgamma ubuntu-advantage-tools xdg-desktop-portal-kde software-properties-common ttf-mscorefonts-installer maliit-keyboard
 apt install -y systemd-sysv htop tmux neofetch whois 
 apt install -y zfsutils-linux gdisk sshfs exfatprogs
 apt install -y wget neofetch otpclient oathtool radeontop glmark2 piper kcalc artha iw
@@ -24,7 +24,7 @@ apt install -y libreoffice libreoffice-kf5 okular calibre
 apt install -y krita gimp
 apt install -y haruna kaffeine vlc
 apt install -y pcsxr pcsx2 retroarch
-apt install -y clang gcc g++ binutils gcc-mingw-w64 g++-mingw-w64 make 
+apt install -y clang gcc g++ binutils gcc-mingw-w64 g++-mingw-w64 make upx
 apt install -y openjdk-17-jdk openjdk-17-jre 
 apt install -y nodejs npm
 apt install -y lua5.4 luajit luarocks 
